@@ -5,11 +5,11 @@ void main()
   int i;
   do
   {
-    printf("What is your father Name? ");
+    printf("What is your father Name? I want to know na");
     scanf("%s", Name);
     do
     {
-      printf("What is your blood group [A, B, AB, or O]? ");
+      printf("What is your blood group [A, B, AB, or O]? I want to know na");
       scanf("%s", G);
 
       if (strcmp(G, "A") !=0  &&
@@ -23,12 +23,12 @@ void main()
                             strcmp(G, "O") !=0 );
     if (strcmp(G,"A") ==0)
     {
-      printf("%s, A. Wow, you can give blood to: A, AB.\n", Name);
+      printf("%s, A. Hey, you can give blood to: A, AB.\n", Name);
       printf("  You can receive blood from: A, O.\n");
     }
     else if (strcmp(G, "B") ==0)
     {
-      printf("%s, B. Oh-ho, you can give blood to: B, AB.\n", Name);
+      printf("%s, B. Well, you can give blood to: B, AB.\n", Name);
       printf("  You can receive blood from: B, O.\n");
     }
     else if (strcmp(G, "AB") == 0)
